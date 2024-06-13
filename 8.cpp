@@ -1,7 +1,7 @@
 /*
 > Date Created: June 13, 2024
 > Author: Ishaan Rastogi
-> Purpose: To show if a number is positive or negative.
+> Purpose: To show if a number is positive or negative or 0.
 > Operating System: This is only for Windows OS, it may or may not work on other OS
 > Program Status: 100% Working
 */
@@ -18,8 +18,12 @@ int main () {
         cout << "n is positive " << endl;
     }
 
-    else {
+    else if (n<0) {
         cout << "n is negative " << endl;
+    }
+
+    else {
+        cout << "n is 0 " << endl;
     }
 }
 
