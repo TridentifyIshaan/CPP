@@ -12,13 +12,13 @@ using namespace std;
 int main ()
 {
     int a = 123;
-    cout << a << endl ;
+    cout << a << endl;
     
     char b = 'A'; // in char, only single character can be used and only single inverted commas will be used
-    cout << b << endl ;
+    cout << b << endl;
 
     bool bl = true;
-    cout << bl << endl ;
+    cout << bl << endl;
 
     float f = 1.2;
     cout << f << endl;
