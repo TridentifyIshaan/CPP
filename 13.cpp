@@ -1,7 +1,7 @@
 /*
 > Date Created: June 14, 2024
 > Author: Ishaan Rastogi
-> Purpose: To print numbers 1 to n
+> Purpose: To find sum of numbers 1 to n.
 > Operating System: This is only for Windows OS, it may or may not work on other OS
 > Program Status: 100% Working
 */
@@ -13,11 +13,13 @@ int main (void) {
     int n;
     cout << "Enter a number: ";
     cin >> n;
+    int sum = 0;
     int i = 1;
     while ( i <= n ) {
-        cout << i << endl;
+        sum += i;
         i++;
     }
+    cout << "Sum from 1 to " << n << " = " << sum << endl; 
 }
 
 /* 
