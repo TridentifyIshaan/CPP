@@ -1,5 +1,5 @@
 /*
-> Date Created: June 14, 2024
+> Date Created: June 15, 2024
 > Author: Ishaan Rastogi
 > Purpose: To print a pattern of n numbers in n rows
 
