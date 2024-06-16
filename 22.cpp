@@ -4,12 +4,12 @@
 > Purpose: To print ...
 
 Eg- For n = 3,
-    3 2 1 
-    3 2 1
+    9 8 7
+    6 5 4
     3 2 1
 
 > Operating System: This is only for Windows OS, it may or may not work on other OS
-> Program Status: 100% Working
+> Program Status: Not Working
 */
 
 #include <iostream>
@@ -20,11 +20,13 @@ int main () {
     cout << "Enter the number: ";
     cin >> n;
     int i = 1;
-    while ( i <= n ) {
-        int j = n;
-        while ( j >= 1 ) { //Changing from j is less than n from j=1 to j is greater than 1 from j=n
-            cout << j <<" ";
-            j--; //And changing the flow from increasing to decrease.
+    int a = n; // New thing to learn
+    while ( i >= 1 ) {
+        int j = 1;
+        while ( j <= n ) {
+            cout << a <<" "; //printing a
+            a--; // incrementing a
+            j++;
         }
         cout << endl;
         i++;
