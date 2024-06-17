@@ -19,7 +19,7 @@ int main () {
     int n;
     cout << "Enter the number: ";
     cin >> n;
-    int i = 1;
+    int i = n;
     int a = n; // New thing to learn
     while ( i >= 1 ) {
         int j = 1;
@@ -29,7 +29,7 @@ int main () {
             j++;
         }
         cout << endl;
-        i++;
+        i--;
     }
     return 0;
 }
