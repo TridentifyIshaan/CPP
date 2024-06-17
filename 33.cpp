@@ -5,11 +5,10 @@
 
 Eg- For n = 4,
 
-
-4 5 6 7
-3 4 5
-2 3
 1
+2 1
+3 2 1
+4 3 2 1
 
 > Operating System: This is only for Windows OS, it may or may not work on other OS
 > Program Status: Working
@@ -22,15 +21,15 @@ int main () {
     int n;
     cout << "Enter the number: ";
     cin >> n;
-    int i = n;
-    while ( i >= 1 ) {
-        int j = i; // New thing to learn
-        while ( j < i+i ) { //Most important line
-            cout << j <<" ";
+    int i = 1;
+    while ( i <= n ) {
+        int j = 1;
+        while ( j <= i ) { //Most important line
+            cout << (i - j + 1) <<" "; // The blank spaces will be created due to the output coming 0 which is not allowed due to the conditions set fro numbers 1 to n.
             j++;
         }
         cout << endl;
-        i--;
+        i++;
     }
     return 0;
 }

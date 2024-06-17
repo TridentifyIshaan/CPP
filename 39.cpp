@@ -1,15 +1,14 @@
 /*
 > Date Created: June 17, 2024
 > Author: Ishaan Rastogi
-> Purpose: Better version of 30.cpp
+> Purpose: To print ...
 
 Eg- For n = 4,
 
-
-4 5 6 7
-3 4 5
-2 3
-1
+A 
+B B 
+C C C 
+D D D D 
 
 > Operating System: This is only for Windows OS, it may or may not work on other OS
 > Program Status: Working
@@ -22,15 +21,16 @@ int main () {
     int n;
     cout << "Enter the number: ";
     cin >> n;
-    int i = n;
-    while ( i >= 1 ) {
-        int j = i; // New thing to learn
-        while ( j < i+i ) { //Most important line
-            cout << j <<" ";
+    int i = 1;
+    while ( i <= n ) {
+        char a = 'A' + i - 1; //Important
+        int j = 1;
+        while ( j <= i ) { //Most important line
+            cout << a <<" ";
             j++;
         }
         cout << endl;
-        i--;
+        i++;
     }
     return 0;
 }
