@@ -5,10 +5,11 @@
 
 Eg- For n = 4,
 
-4 3 2 1
-4 3 2
-4 3
-4
+4 4 4 4
+3 3 3
+2 2
+1
+
 
 > Operating System: This is only for Windows OS, it may or may not work on other OS
 > Program Status: Working
@@ -21,15 +22,15 @@ int main () {
     int n;
     cout << "Enter the number: ";
     cin >> n;
-    int i = 1;
-    while ( i <= n ) {
-        int j = n; //Changing from 1 to n
-        while ( j >= i ) { //Most important line
-            cout << j <<" ";
-            j--; //Decrement
+    int i = n; //Changing from 1 to n
+    while ( i >= 1 ) { // Changing from n to 1
+        int j = 1;
+        while ( j <= i ) { //Most important line
+            cout << i <<" ";
+            j++;
         }
         cout << endl;
-        i++;
+        i--; //Decrement
     }
     return 0;
 }
