@@ -5,10 +5,10 @@
 
 Eg- For n = 4,
 
-*
-* *
-* * *
 * * * *
+* * *
+* *
+*
 
 > Operating System: This is only for Windows OS, it may or may not work on other OS
 > Program Status: Working
@@ -23,10 +23,10 @@ int main () {
     cin >> n;
     int i = 1;
     while ( i <= n ) {
-        int j = 1;
-        while ( j <= i ) { //Most important line
+        int j = n; //Changing from 1 to n
+        while ( j >= i ) { //Most important line
             cout << '*' <<" ";
-            j++;
+            j--; //Decrement
         }
         cout << endl;
         i++;
