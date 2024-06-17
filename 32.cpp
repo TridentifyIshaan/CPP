@@ -1,14 +1,17 @@
 /*
 > Date Created: June 17, 2024
 > Author: Ishaan Rastogi
-> Purpose: To print ...
+> Purpose: Better version of 30.cpp
 
 Eg- For n = 4,
+
 
 4 5 6 7
 3 4 5
 2 3
 1
+
+Logic- For every row, i increases
 
 > Operating System: This is only for Windows OS, it may or may not work on other OS
 > Program Status: Working
@@ -22,13 +25,10 @@ int main () {
     cout << "Enter the number: ";
     cin >> n;
     int i = n;
-    int a = 1;
     while ( i >= 1 ) {
-        int j = 1;
-        a = i; //New thing to learn
-        while ( j <= i ) { //Most important line
-            cout << a <<" ";
-            a++;
+        int j = i; // New thing to learn
+        while ( j < i+i ) { //Most important line
+            cout << j <<" ";
             j++;
         }
         cout << endl;
