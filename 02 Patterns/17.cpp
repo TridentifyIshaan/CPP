@@ -1,4 +1,11 @@
 /*
+
+This note will be available only on first file of each folder present in folder C++ .
+Documentation aka basic notes on how to run the code is already kept in each file for each programme using (/*) or //.
+Wherever author needs it to be inserted, he has inserted. So that people using these files can learn easily how to code in C++ Language.
+Author has made these programmes as a reference using courses of CodingHelp - By Babbar, while himself learning C++ Language for the first time.
+
+/*
 > Date Created: June 14, 2024
 > Author: Ishaan Rastogi
 > Purpose: To print n x n pattern of *
