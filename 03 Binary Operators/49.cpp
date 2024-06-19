@@ -8,7 +8,7 @@ Author has made these programmes as a reference using courses of CodingHelp - By
 /*
 > Date Created: June 19, 2024
 > Author: Ishaan Rastogi
-> Purpose: 
+> Purpose: To show binary number operations via AND, OR, NOT, XOR operators
 > Operating System: This is only for Windows OS, it may or may not work on other OS
 > Program Status: 100% Working
 
@@ -65,9 +65,6 @@ int main () {
     cout << "a^b will be " << (a^b) << endl;
 
 }
-
-
-
 
 /* 
 
