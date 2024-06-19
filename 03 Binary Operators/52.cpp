@@ -1,7 +1,7 @@
 /*
 > Date Created: June 19, 2024
 > Author: Ishaan Rastogi
-> Purpose: To show working of pre & post increment decrement operators
+> Problem 1
 > Operating System: This is only for Windows OS, it may or may not work on other OS
 > Program Status: 100% Working
 */
@@ -10,24 +10,15 @@
 using namespace std;
 
 int main () {
-    int i = 7;
-    cout << (i++) << endl;
-    cout<< (++i) << endl;
-    cout << (i--) << endl;
-    cout << (--i) << endl;
-    
+    int a, b =1;
+    a = 10;
+    if ( ++a )
+        cout << b;
+    else
+        cout << ++b;
 }
 
-/*
-
-Output will be:
-
-8
-8
-9
-7
-
-*/
+// Output = 1
 
 /* 
 

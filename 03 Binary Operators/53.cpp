@@ -1,7 +1,7 @@
 /*
 > Date Created: June 19, 2024
 > Author: Ishaan Rastogi
-> Purpose: To show working of pre & post increment decrement operators
+> Problem 2
 > Operating System: This is only for Windows OS, it may or may not work on other OS
 > Program Status: 100% Working
 */
@@ -10,24 +10,18 @@
 using namespace std;
 
 int main () {
-    int i = 7;
-    cout << (i++) << endl;
-    cout<< (++i) << endl;
-    cout << (i--) << endl;
-    cout << (--i) << endl;
-    
+    int a =1, b =2;
+    a = 10;
+    if ( a-- && ++b > 2 ) {
+        cout << "Stage1 - Inside If ";
+    }
+    else {
+        cout << "Stage2 - Inside else ";
+    }
+    cout << a << " " << b << endl;
 }
 
-/*
-
-Output will be:
-
-8
-8
-9
-7
-
-*/
+//Output- Stage1 - Inside If 0 3
 
 /* 
 
