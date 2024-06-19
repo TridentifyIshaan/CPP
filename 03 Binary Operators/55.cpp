@@ -10,18 +10,11 @@
 using namespace std;
 
 int main () {
-    int a = 1, b = 2;
-    a = 10;
-    if ( a-- > 0 || ++b > 2 ) { //Only of the conditions should be true for OR, that's why it won't see ++b > 2
-        cout << "Stage1 - Inside If ";
-    }
-    else {
-        cout << "Stage2 - Inside else ";
-    }
-    cout << a << " " << b << endl;
+    int number = 3;
+    cout << (25 * (++number) );
 }
 
-//Output- Stage1 - Inside If 0 2
+// Output = 100
 
 /* 
 
