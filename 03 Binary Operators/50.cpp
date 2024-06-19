@@ -25,7 +25,8 @@ Change every bit to 4 times right
 5 = 0000...00000101 // 0101 these 4 digits vanish to the right.
 5 >> 4 = 0000....0000 = 0
 
-NOTE- Every time padding happens via number 0, padding means filling the empty space here, just like Web Dev.
+NOTE- Every time padding happens via number 0 for positive numbers, padding means filling the empty space here, just like Web Dev.
+For negative numbers, padding is dependent on compiler.
 
 Binary Number systems:
 
