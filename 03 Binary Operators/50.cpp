@@ -15,7 +15,7 @@ Left shift operator -
 Change every bit to one time left
 
 5 = 0000...0101
-5 << 1 = 10000...01010 = 10
+5 << 1 = 0000...01010 = 10
 
 Right shift operator -
 
@@ -23,7 +23,7 @@ Right shift operator -
 Change every bit to 4 times right
 
 5 = 0000...0101
-5 >> 4 = 0101...0000 = 0
+5 >> 4 = 0000...01010000 = 0
 
 Binary Number systems:
 
