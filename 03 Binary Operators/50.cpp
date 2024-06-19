@@ -22,8 +22,8 @@ Right shift operator -
 5 >> 4 -> Shift 5 four times to the right
 Change every bit to 4 times right
 
-5 = 0000...0101
-5 >> 4 = 0000...01010000 = 0
+5 = 0000...00000101 // 0101 these 4 digits vanish to the right.
+5 >> 4 = 0000....0000 = 0
 
 Binary Number systems:
 
