@@ -1,7 +1,7 @@
 /*
 > Date Created: June 19, 2024
 > Author: Ishaan Rastogi
-> Problem 4
+> Problem 5
 > Operating System: This is only for Windows OS, it may or may not work on other OS
 > Program Status: 100% Working
 */
@@ -10,11 +10,14 @@
 using namespace std;
 
 int main () {
-    int number = 3;
-    cout << (25 * (++number) );
+    int a = 1;
+    int b = a++;
+    int c = ++a;
+    cout << b << " ";
+    cout << c;
 }
 
-// Output = 100
+//Output - 1 3
 
 /* 
 
