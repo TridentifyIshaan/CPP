@@ -24,8 +24,6 @@ int main () {
 
 }
 
-//Output - 0 1 2
-
 /* 
 
 For Terminal Code... Ctrl + Shift + `

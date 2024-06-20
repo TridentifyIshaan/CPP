@@ -26,11 +26,8 @@ int main () {
         a = b; // We assigned value of b to a
         b = nextN; // Value of nextN to b
     }
-
     
 }
-
-//Output - 0 1 2
 
 /* 
 
