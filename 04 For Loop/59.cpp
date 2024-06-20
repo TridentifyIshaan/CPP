@@ -1,7 +1,7 @@
 /*
 > Date Created: June 20, 2024
 > Author: Ishaan Rastogi
-> Purpose: To show working of break and a new form of for loop
+> Purpose: To show multiple variable usage in for loop
 > Operating System: This is only for Windows OS, it may or may not work on other OS
 > Program Status: 100% Working
 */
@@ -10,23 +10,12 @@
 using namespace std;
 
 int main () {
-    int n;
-    cout << " Enter a number: " << endl;
-    cin >> n;
-
-    cout << "Printing count from 1 to n" << endl;
-
-    int i = 1;
-    for ( ; ; ) {
-        if (i <= n) {
-            cout << i << endl;
-        }
-        else {
-            break;
-        }
-        i++;
+    for ( int a = 0, b = 1, c = 3; a >= 0 && b >= 1 && c >= 2 ; a--, b--, c-- ) {
+        cout << a << " " << b << " " << c << endl;
     }
 }
+
+//Output - 0 1 2
 
 /* 
 
