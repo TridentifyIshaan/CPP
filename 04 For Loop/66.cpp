@@ -1,7 +1,7 @@
 /*
 > Date Created: June 21, 2024
 > Author: Ishaan Rastogi
-> Purpose: Problem 1
+> Purpose: Problem 3
 > Operating System: This is only for Windows OS, it may or may not work on other OS
 > Program Status: 100% Working
 */
@@ -11,13 +11,18 @@ using namespace std;
 
 int main () {
 
-    for ( int i = 0; i <= 5; i++) { //addition
+    for ( int i = 0; i <= 15; i += 2) { //increment 2 times
         cout << i << " ";
-        i++; //addition
+
+        if ( i & 1 ) {
+            continue;
+        }
+
+        i++; //increment
     }
 }
 
-//Output - 0 2 4
+//Output - 0 3 5 7 9 11 13 15
 
 /* 
 

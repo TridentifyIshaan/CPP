@@ -11,13 +11,13 @@ using namespace std;
 
 int main () {
 
-    for ( int i = 0; i <= 5; i--) {
+    for ( int i = 0; i <= 5; i--) { //decrement
         cout << i << " ";
-        i++;
+        i++; //increment
     }
 }
 
-//Output - 0 0 0 0 0 0...
+//Output - 0 0 0 0 0 0... (infinite series)
 
 /* 
 
