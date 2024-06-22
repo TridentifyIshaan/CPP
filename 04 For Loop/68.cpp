@@ -18,7 +18,6 @@ int main () {
             if ( i + j == 10 ) {
                 break;
             }
-
             cout << i << " " << j << endl;
         }
     }
