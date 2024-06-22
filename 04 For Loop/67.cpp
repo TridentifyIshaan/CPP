@@ -12,7 +12,7 @@ using namespace std;
 int main () {
 
     for ( int i = 0; i < 5; i++) {
-        for ( int j = i; j <= 5; j++) {
+        for ( int j = i; j <= 5; j++) { //The most important component for this code is int j = i, because of it, this pattern is being formed where at one i, different valeus of j will be printed from j=1 to 5, growing each time.
             cout << i << " " << j << endl;
         }
     }
@@ -41,9 +41,6 @@ Output -
 3 5
 4 4
 4 5
-
-
-
 */
 
 /* 
