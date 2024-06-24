@@ -11,5 +11,6 @@
 
 7. Reverse Integer
 1009. Complement of Base 10 Integer
+231. Power of Two
 
 */
