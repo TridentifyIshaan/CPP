@@ -9,7 +9,7 @@ Eg- For n = 3,
     3 2 1
 
 > Operating System: This is only for Windows OS, it may or may not work on other OS
-> Program Status: Not Working
+> Program Status: 100% Not Working
 */
 
 #include <iostream>
