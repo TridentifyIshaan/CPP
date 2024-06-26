@@ -8,7 +8,7 @@ Author has made these programmes as a reference using courses of CodingHelp - By
 /*
 > Date Created: June 25, 2024
 > Author: Ishaan Rastogi
-> Purpose: To convert decimal number to binary
+> Purpose: To convert decimal number to binary ( only for positive numbers because negative numbers will take a lot of binary digits )
 > Operating System: This is only for Windows OS, it may or may not work on other OS
 > Program Status: 100% Working
 
