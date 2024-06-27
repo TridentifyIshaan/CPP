@@ -24,7 +24,7 @@ int main () {
     }
     cout << endl <<endl;
 
-    cout << "Le me:" <<endl <<endl << "Hoye Hoye Aaye Haye, Oye Hoye Oye Hoye" << endl << "Aaye Haye Aye Haye, Oye Hoye Oye Hoye" << endl;
+    cout << "Le him:" <<endl <<endl << "Hoye Hoye Aaye Haye, Oye Hoye Oye Hoye" << endl << "Aaye Haye Aye Haye, Oye Hoye Oye Hoye" << endl;
 }
 
 /* 
