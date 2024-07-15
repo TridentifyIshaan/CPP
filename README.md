@@ -42,8 +42,8 @@
     1 2 3 <br>
     1 2 3
 </h4>
-<h4> 20. pattern like this
+<h4> 20. pattern like this <br>
     3 2 1 <br>
     3 2 1 <br>
-    3 2 1 <br>
+    3 2 1 
 </h4>
