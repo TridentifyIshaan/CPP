@@ -1,5 +1,5 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=10)
-<h1 align="left"> Hi there 👋</h1>
+<h1 align="left"> Hi there 👋 | <a href="https://github.com/TridentifyIshaan">My Profile</a></h1>
 
 ## 💫 About The Repository:
 - 🌱 What is it about? &emsp; C++ with DSA
