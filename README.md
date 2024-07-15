@@ -3,7 +3,7 @@
 
 ## 💫 About The Repository:
 - 🌱 What is it about? &emsp; C++ with DSA
-- 💞 Tutor &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; CodeHelp by Babbar
+- 💞 Tutor &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; <a href="https://www.youtube.com/@CodeHelp">CodeHelp by Babbar</a>
 - ♾️ Playlist link &emsp; &emsp; &nbsp; &nbsp; <a href="https://www.youtube.com/playlist?list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA">Complete C++ Placement DSA Course</a> 
 - 💻 Tech Stack Used &emsp; &nbsp; ![C++](https://img.shields.io/badge/C++-%23D6FFFA.svg?style=for-the-badge&logo=cplusplus&logoColor=%23044F88)
 
