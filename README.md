@@ -2,10 +2,10 @@
 <h1 align="left"> Hi there 👋</h1>
 
 ## 💫 About The Repository:
-- 🌱 What is it about? <br> C++ with DSA
-- 💞 Tutor <br> CodeHelp by Babbar
-- ♾️ Playlist link <br> <a href="https://www.youtube.com/playlist?list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA">Complete C++ Placement DSA Course</a> 
-- 💻 Tech Stack Used <br> ![C++](https://img.shields.io/badge/C++-%23D6FFFA.svg?style=for-the-badge&logo=cplusplus&logoColor=%23044F88)
+- 🌱 What is it about? &emsp; C++ with DSA
+- 💞 Tutor &emsp; CodeHelp by Babbar
+- ♾️ Playlist link &emsp; <a href="https://www.youtube.com/playlist?list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA">Complete C++ Placement DSA Course</a> 
+- 💻 Tech Stack Used &emsp; ![C++](https://img.shields.io/badge/C++-%23D6FFFA.svg?style=for-the-badge&logo=cplusplus&logoColor=%23044F88)
 
 ![alt text](https://github.com/ChaosXYZ/ChaosXYZ/blob/main/divider.png?raw=true)
 
