@@ -1,7 +1,7 @@
 /*
 > Date Created: October 14, 2023
 > Author: Ishaan Rastogi
-> Purpose: To check different relations between 2 integers
+> Purpose: To carry out relational operations between 2 integers
 > Operating System: This is only for Windows OS, it may or may not work on other OS
 > Program Status: 100% Working
 */
