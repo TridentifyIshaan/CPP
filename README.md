@@ -4,7 +4,7 @@
 ## 💫 About The Repository:
 - 🌱 What is it about? <br> C++ with DSA
 - 💞 Tutor <br> CodeHelp by Babbar
-- ♾️ Playlist link <br> ![Complete C++ Placement DSA Course](https://www.youtube.com/playlist?list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA) 
+- ♾️ Playlist link <br> <a href="https://www.youtube.com/playlist?list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA">Complete C++ Placement DSA Course</a> 
 - 💻 Tech Stack Used <br> ![C++](https://img.shields.io/badge/C++-%23D6FFFA.svg?style=for-the-badge&logo=cplusplus&logoColor=%23044F88)
 
 ![alt text](https://github.com/ChaosXYZ/ChaosXYZ/blob/main/divider.png?raw=true)
