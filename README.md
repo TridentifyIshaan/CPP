@@ -32,17 +32,17 @@
 ### 02 Patterns
 
 <h4> 17. n x n pattern of * </h4>
-<h4> 18. pattern like this <br>
+<h4> 18. pattern like this <br> <br>
     1 1 1 <br>
     2 2 2 <br>
     3 3 3
 </h4>
-<h4> 19. pattern like this <br>
+<h4> 19. pattern like this <br> <br>
     1 2 3 <br>
     1 2 3 <br>
     1 2 3
 </h4>
-<h4> 20. pattern like this <br>
+<h4> 20. pattern like this <br> <br>
     3 2 1 <br>
     3 2 1 <br>
     3 2 1 
