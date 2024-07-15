@@ -12,26 +12,38 @@
 ## 🗂️ Index:
 
 ### 01 Basics
-<h4> 1. </h4>
-<h4> 2. </h4>
-<h4> 3. </h4>
-<h4> 4. </h4>
-<h4> 5. </h4>
-<h4> 6. </h4>
-<h4> 7. </h4>
-<h4> 8. </h4>
-<h4> 9. </h4>
-<h4> 10. </h4>
-<h4> 11. </h4>
-<h4> 12. </h4>
-<h4> 13. </h4>
-<h4> 14. </h4>
-<h4> 15. </h4>
-<h4> 16. </h4>
+<h4> 1. Hello World </h4>
+<h4> 2. Datatypes </h4>
+<h4> 3. Datatype Size </h4>
+<h4> 4. ASCII values </h4>
+<h4> 5. Unsigned Integer</h4>
+<h4> 6. Relational Operatations </h4>
+<h4> 7. User Input </h4>
+<h4> 8. Positive, Negative or Zero </h4>
+<h4> 9. Taking input in a single line for multiple variables</h4>
+<h4> 10. Which number is greater? </h4>
+<h4> 11. Lowercase & uppercase Letters or Numbers ? </h4>
+<h4> 12. Print n numbers </h4>
+<h4> 13. Sum of n numbers </h4>
+<h4> 14. Sum of even numbers </h4>
+<h4> 15. Fahrenheit to Celcius</h4>
+<h4> 16. Prime or Not? </h4>
 
 ### 02 Patterns
 
-<h4> 17. </h4>
-<h4> 18. </h4>
-<h4> 19. </h4>
-<h4> 20. </h4>
+<h4> 17. n x n pattern of * </h4>
+<h4> 18. pattern like this
+    1 1 1
+    2 2 2
+    3 3 3
+</h4>
+<h4> 19. pattern like this
+    1 2 3
+    1 2 3
+    1 2 3
+</h4>
+<h4> 20. pattern like this
+    3 2 1 
+    3 2 1
+    3 2 1
+</h4>
