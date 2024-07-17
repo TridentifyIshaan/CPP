@@ -6,9 +6,9 @@ Wherever author needs it to be inserted, he has inserted. So that people using t
 Author has made these programmes as a reference using courses of CodingHelp - By Babbar, while himself learning C++ Language for the first time.
 
 /*
-> Date Created: July 017, 2024
+> Date Created: July 018, 2024
 > Author: Ishaan Rastogi
-> Purpose: To show how to declare array and access any element of an array
+> Purpose: To show how to declare array, access any element of an array amd also assigning value to an element of an array.
 > Operating System: This is only for Windows OS, it may or may not work on other OS
 > Program Status: 100% Working
 
@@ -20,9 +20,25 @@ using namespace std;
 int main () {
 
     //declaring array
-    int number[15] = {3, 5, 11}; // indices 0-2 has 3 values but afterwards, the rest indices left have any random garbage value.
+    int first[15]; // any garbade value at any index
+    
     //accessing an array
-    cout << "Value at 0 index is " << number[0] << endl;
+    cout << "Value at index 0 is " << first[0] << endl; 
+    
+    //declaring array
+    int second[15] = {3, 5, 11}; // indices 0-2 has 3 values but afterwards, the rest indices left have 0.
+    
+    //accessing an array
+    cout << "Value at index 3 is " << second[3] << endl;
+
+    //declaring array
+    int third[15];
+
+    //assigning value
+    third[5] = 6;
+    
+    //accessing an array
+    cout << "Value at index 5 is " << third[5] << endl;
 }
 
 /* 
