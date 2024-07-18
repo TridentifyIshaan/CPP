@@ -33,6 +33,7 @@ int main () {
     for ( int i = 0; i < size; i++ ) {
         cout << "Enter the array :" << endl;
         cin >> num[i]; 
+        break;
     }
 
     cout << "Maximum number is " << getMax( num, size) << endl;

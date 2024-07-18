@@ -1,7 +1,7 @@
 /*
 > Date Created: July 018, 2024
 > Author: Ishaan Rastogi
-> Purpose: To find the minimum number in the array
+> Purpose: Better version of 104.cpp
 > Operating System: This is only for Windows OS, it may or may not work on other OS
 > Program Status: 100% Working
 
@@ -9,18 +9,18 @@
 
 #include <iostream>
 #include <climits>
+#include <algorithm>
+
 using namespace std;
 
 // Simple logic if you read it.
-int getMin (int num[], int n) {
+int getMax (int num[], int n) {
     
-    int min = INT_MAX;
+    int max = INT_MIN;
     for ( int i = 0; i < n; i++) {
-        if ( num[i] > min ) {
-            min = num[i];
-        }
+        max = std::max(max, num[i]); //max function
     }
-    return min;
+    return max;
 }
 
 int main () {
@@ -32,11 +32,11 @@ int main () {
     int num[100];
     for ( int i = 0; i < size; i++ ) {
         cout << "Enter the array :" << endl;
-        cin >> num[i]; 
+        cin >> num[i];
         break;
     }
 
-    cout << "Minimum number is " << getMin( num, size) << endl;
+    cout << "Maximum number is " << getMax( num, size) << endl;
 }
 
 /* 
