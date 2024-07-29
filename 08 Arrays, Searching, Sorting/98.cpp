@@ -39,6 +39,12 @@ int main () {
     
     //accessing an array
     cout << "Value at index 5 is " << third[5] << endl;
+
+    //defining whole array
+    int arr[3] = {1, 2, 3};
+    for ( int i=0; i<3; i++) {
+        cout << arr[i] << " ";
+    }
 }
 
 /* 
